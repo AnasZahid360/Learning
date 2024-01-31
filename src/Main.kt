@@ -1,3 +1,4 @@
+/*
 // 3 Logical Operators In Kotlin
 // && (AND)
 // || (OR)
@@ -120,17 +121,63 @@ fun main() {
     // What Are Loops?
     // Loops Are Set Of Statements Which You Want To Be Executed Multiple Times
 
-    var count = 1
-    while (count <= 50)
+//    var count = 1
+//    while (count <= 50)
+//    {
+//        println("This Bomb Will Go Off In  $count" ) // Concatenation
+//        count++
+//    }
+
+
+
+
+
+
+    }
+
+*/
+
+fun main(){
+
+// var cat = "This Is Cat"
+//    var dog = "This Is Dog"
+//    var horse = "This Is Horse"
+//
+//    println("$cat $dog $horse " + "They All Are Animals")
+
+
+    var anas = "My Name Is Anas"
+    var education = "I Study In The University Of Hertfordshire"
+    var age = "I Am 18 Years Old"
+    var hobbies = "I Like To Do KickBoxing, Coding & Go To The Gym"
+    var goals = "I Want To Be A Self Made Billionaire"
+
+    println("$anas")
+    println("$education")
+    println("$age")
+    println("$hobbies")
+    println("$goals")
+
+
+    var countdown = 365
+    var counter = 1
+    while (counter <= countdown)
     {
-        println("This Bomb Will Go Off In  $count" ) // Concatenation
-        count++
+        println("This Is My Year, Time Left $counter / $countdown")
+        counter++
     }
 
-
-
-
-
-
+    val tables = 77
+    for (i in 1..77)
+    {
+        println("$tables x $i = ${tables * i}")
     }
 
+    val animals = 150
+    for (i in 1..100)
+
+    println("$animals + $i = The Total Number Of Cats In The Shelter Are = ${animals + i}")
+
+
+
+}
